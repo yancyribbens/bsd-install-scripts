@@ -1,3 +1,7 @@
+# ports
+portsnap fetch
+portsnap extract
+
 # bash
 cd /usr/ports/shells/bash
 make -DBATCH install clean
