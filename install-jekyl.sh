@@ -11,7 +11,7 @@ cd /usr/ports/editors/vim
 make -DBATCH install clean
 
 # sudo
-cd /usr/ports/secuirty/sudo
+cd /usr/ports/security/sudo
 make -DBATCH install clean
 
 # git
