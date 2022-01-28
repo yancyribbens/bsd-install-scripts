@@ -2,6 +2,10 @@
 portsnap fetch
 portsnap extract
 
+# update jail
+freebsd-update fetch
+freebsd-update install
+
 # bash
 cd /usr/ports/shells/bash
 make -DBATCH install clean
@@ -25,3 +29,7 @@ make -DBATCH install clean
 # jekyll
 cd /usr/ports/www/rubygem-jekyll
 make -DBATCH install clean
+
+# node (optional)
+# cd /usr/ports/www/node/
+# make -DBATCH install clean
