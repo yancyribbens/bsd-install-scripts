@@ -33,3 +33,6 @@ make -DBATCH install clean
 # node (optional)
 # cd /usr/ports/www/node/
 # make -DBATCH install clean
+
+cd /usr/ports/www/nginx/
+make -DBATCH install clean
